@@ -14,7 +14,7 @@
                             </h1>
                             <p>Trouver le chat le plus mignon.</p>
                             <p class="text-uppercase montserrat ">
-                                <a href="#" class="btn btn-green">Voter</a>
+                                <a href="{{ route('catmash.vote') }}" class="btn btn-green">Voter</a>
                                 <a href="#" class="btn btn-white">Tous les chats</a>
                             </p>
                         </div>
